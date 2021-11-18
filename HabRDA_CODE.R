@@ -12,7 +12,7 @@ library(egg)
 library(tidyverse)
 
 # Import data
-ForageAbioticComps <- read_csv("ForageAbioticComps.csv")
+ForageAbioticComps <- read_csv("Forage_AbioticComps.csv")
 
 # Parse data
 taxa <- ForageAbioticComps[, 9:58]
